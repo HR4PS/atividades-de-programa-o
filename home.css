@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{ 
+    background: rgb(130,87,0);
+    background: -moz-radial-gradient(circle, rgba(130,87,0,1) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(130,87,0,1) 0%, rgba(0,0,0,1) 100%);
+    background: radial-gradient(circle, rgba(130,87,0,1) 0%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#825700",endColorstr="#000000",GradientType=1);
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+   background-color: red;
+}
+.menu{
+    text-align: end;
+}
